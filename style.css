@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-image: url(./3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    
+}
+h2{
+    font-family: 'Oleo Script', cursive;
+    
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+}
+
+
+/********************************** page 1 ***********************************************************/
+/********************************** page 1 ***********************************************************/
+/********************************** page 1 ***********************************************************/
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    justify-content: space-between;
+   
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.contact{
+    display: none;
+}
+
+.header{
+    position: sticky;
+    width: 100%;
+}
+.contact i{
+    font-size: 1rem;
+    color: white;
+    padding: 0 1rem;
+}
+.nav-menu{
+    display: none;
+    
+}
+
+.nav-menu ul{
+    display: flex;
+    list-style: none; 
+    padding-right: 5rem;
+    flex-wrap: wrap;
+}
+
+.nav-menu a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding:2rem;
+    justify-content: flex-start;
+    color: white;
+    font-family: 'Oleo Script', cursive;
+}
+
+.icon{
+    color: white;
+    font-size: 2rem;
+    float: right;
+}
+
+.menu a{
+    color: white;
+}
+
+
+@media screen and (min-width:600px){
+    .header{
+        position: fixed;
+        
+    }
+
+    .nav-menu{
+        display: block;
+        
+    }
+
+    .nav-menu a:hover{
+        background-color: rgb(253,235,169);
+        color: black;
+    }
+    .icon{
+        display: none;
+    }
+
+    .logo{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        cursor: pointer;
+    }
+    .contact{
+        display: block;
+        text-transform: lowercase;
+    }
+
+    .home{
+        
+        
+        height: 100vh;
+    }
+
+    .title{
+        padding: 15% 0;
+    
+        
+        
+    }
+
+    .title-left h1{
+    font-size: 6rem;
+    padding: 3rem;
+    }
+
+    .title-right{
+        display: inline-block;
+        width: 20%;
+        align-items: center;
+        padding-top: 5rem;
+    }
+
+    
+
+
+}
+.title{
+    display: flex;
+    justify-content: center;   
+    gap: 2rem;
+    flex-wrap: wrap; 
+
+}
+
+.title-left{ 
+    font-size: 1.5rem; 
+    border: rgb(245,176,39) 5px inset;
+    padding: 3rem;
+    color: white;
+    border-radius: 15%;
+    background-color: rgb(0, 0, 0,0.8 ); 
+    color: rgb(245,176,39);    
+}
+.title-right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-right p{
+    font-size:2rem;
+    color: white;
+    font-family: 'Oleo Script', cursive;
+}
+.title-right a{
+    text-decoration: none;
+    font-size: 2rem;
+   background-color: rgb(245,176,39);
+   padding: 1rem;
+   border-radius: 20px;
+   font-family: 'Pacifico', cursive;
+   margin: 0 20%;
+}
+
+.btn:hover{
+    background-color: rgb(0, 0, 0,0.8);
+    color: rgb(245,176,39);
+    transition: 0.5s;
+    border: rgb(245,176,39) solid 5px;
+    
+}
+
+
+/********************************** page 2 ***********************************************************/
+/********************************** page 2 ***********************************************************/
+/********************************** page 2 ***********************************************************/
+
+.opening{
+    margin:20% 0; 
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.center{
+    display: flex;
+    gap: 2rem;   
+}
+
+.center h1{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.center ul{
+    list-style: none;
+    justify-content: center;
+    
+}
+
+.center li{
+    font-size: 1rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.center p{
+    font-size: 1rem;
+    font-family: 'Pacifico', cursive;
+}
+@media screen and (min-width:600px){
+    .opening{
+        padding: 5% 0;
+        margin-bottom: 10%;
+    }
+    .center{
+        border: 5px rgb(0, 0, 0) solid; 
+        justify-content: center;
+        gap: 5rem;
+        border-radius: 25px;
+        flex-wrap: wrap;
+        width: 60%;
+        padding: 5% 0;
+        
+    }
+
+    .center h1{
+        font-size: 2.5rem;
+        
+    }
+
+    .center li{
+        font-size: 1.5rem;
+    }
+    .center p{
+        font-size: 1.5rem;
+    }
+
+
+
+}
+
+
+/********************************** page 2 ***********************************************************/
+/********************************** page 2 ***********************************************************/
+/********************************** page 2 ***********************************************************/
+
+
+.container{
+    display: flex;  
+    flex-direction: column;
+      align-items: center;
+}
+
+.container>h1{
+    color: white;
+    font-size: 2rem;
+    background-color: rgb(0, 0, 0,0.5);
+    border: white solid 2px;
+    padding: 15px 30px;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    color: white;
+    justify-content: flex-end;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.5);
+    border: white solid 2px;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.para h2{
+    font-size: 2rem;
+}
+
+.para p{
+    font-size: 1rem;
+}
+
+@media screen and (min-width:600px){
+    .about{
+        height: 80vh;
+        
+     }
+     .container>h1{
+        font-size: 3rem;
+        
+     }
+
+     .container{
+         gap: 2rem;
+     }
+
+     .para{
+         width: 50%;
+     }
+     .para h2{
+        font-size: 2.5rem;
+    }
+    
+    .para p{
+        font-size: 1.5rem;
+    }
+     
+
+}
+   
+/**********************************end page 3 ***********************************************************/
+/**********************************end page 3 ***********************************************************/
+/**********************************end page 3 ***********************************************************/
+
+
+/********************************** page 4 ***********************************************************/
+/********************************** page 4 ***********************************************************/
+/********************************** page 4 ***********************************************************/
+
+
+.try{
+    display: flex;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+}
+
+.try h1{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2rem;
+    border: black solid 2px;
+    padding: 1rem;
+}
+
+.fb{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.col4{
+    flex-basis: 50%;
+}
+
+@media screen and (max-width:1100px){
+    .try{
+       margin-top: 60px ;
+    }
+}
+
+@media screen and (min-width:600px){
+.fb{
+    width: 40%;
+    margin-left: 35%;
+}
+
+.col4 img{
+    cursor: pointer;
+    filter: grayscale(100%);
+    
+}
+
+.col4 img:hover{
+    filter: grayscale(0%);
+   
+    
+}
+
+
+}
+
+
+
+
+
+
+
+
+
